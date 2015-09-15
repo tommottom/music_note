@@ -19,7 +19,13 @@
 
 
 body {
-	background: #E9E9E9;
+	
+  background: -webkit-linear-gradient(90deg, #FBD3E9 10%, #BB377D 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FBD3E9 10%, #BB377D 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FBD3E9 10%, #BB377D 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FBD3E9 10%, #BB377D 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FBD3E9 10%, #BB377D 90%); /* W3C */
+        
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,7 +36,7 @@ nav {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 	.navbar-brand {
 		a {
-			color: #BD1E23;
+			color:  #FBD3E9;
 			font-weight: bold;
 			&:hover {
 				text-decoration: none;
